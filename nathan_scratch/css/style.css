@@ -1,4 +1,29 @@
-h1{
+/* top-level styling */
+* {
     font-family: Arial;
+}
+/* element-level styling */
+h1{
     color: darkblue;
+}
+/* class-level styling */
+.topnav {
+    overflow: hidden;
+    align-content: center;
+}
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.page-title{
+    text-align: center;
 }
