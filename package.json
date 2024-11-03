@@ -1,0 +1,22 @@
+{
+  "name": "hh_site_style_scratch",
+  "version": "1.0.0",
+  "description": "test environment for site appearance and functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UltrascatterRED/HH_Site_Style_Scratch.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UltrascatterRED/HH_Site_Style_Scratch/issues"
+  },
+  "homepage": "https://github.com/UltrascatterRED/HH_Site_Style_Scratch#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

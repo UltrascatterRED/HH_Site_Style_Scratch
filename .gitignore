@@ -1,0 +1,5 @@
+# Files and file types
+package-lock.json
+
+# Directories
+node_modules/
