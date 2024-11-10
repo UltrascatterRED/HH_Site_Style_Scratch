@@ -1,0 +1,225 @@
+/* Gold is #FFD700*/
+/* Navy Blue is #002855*/
+
+
+/* Color Variables */
+:root {
+    --navy-blue: #002855;
+    --gold: #FFD700;
+    --background-light: #f8f8fa;
+    --text-color: #333;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-light);
+    color: var(--text-color);
+}
+
+/* ========== Header Styles ========== */
+.top-header {
+    background-color: #fff;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.top-logo {
+    width: 110px;
+    height: auto;
+}
+
+.top-header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-button {
+    background-color: var(--navy-blue);
+    color: var(--gold);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #004080;
+}
+
+/* ========== Main Header Styling ========== */
+.header {
+    background-color: #fff;
+    color: var(--navy-blue);
+    border-top: 2px solid #eeeeee;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+}
+
+/* ========== Main Image Section ========== */
+.main-image-section {
+    position: relative;
+    text-align: center;
+    margin: 20px;
+}
+
+.main-image {
+    width: 90%;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 15px;
+    background-color: #fff;
+    border: 1px solid var(--navy-blue);
+}
+
+.image-description {
+    color: var(--navy-blue);
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* ========== Storyboard Section ========== */
+.storyboard {
+    border-top: 3px solid var(--navy-blue);
+    border-bottom: 3px solid var(--gold);
+    border-radius: 10px;
+}
+
+/* ========== Main Article Styling ========== */
+.main-article {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-article-image {
+    flex: 2;
+    margin-right: 10px;
+    border-right: 2px solid #ddd;
+    max-width: 50%;
+}
+
+.large-image {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.thumbnail-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.thumbnail-image {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+}
+
+.thumbnail-image:hover {
+    transform: scale(1.5);
+}
+
+/* ========== Article Card Styling ========== */
+.article-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.article-card:hover {
+    box-shadow: 0 6px 18px rgba(0, 40, 85, 0.3);
+    clip-path: inset(1% -10% 1% -10%);
+}
+
+.article-image {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Expandable Content */
+.expandable-content {
+    display: none;
+}
+
+.expand-btn {
+    color: var(--navy-blue);
+    text-decoration: underline;
+}
+
+.expand-btn:hover {
+    color: #b4120c;
+}
+
+/* ========== Pagination Buttons ========== */
+.page-btn {
+    background-color: var(--navy-blue);
+    color: var(--gold);
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.page-btn:disabled {
+    background-color: #ccc;
+    color: var(--navy-blue);
+    cursor: not-allowed;
+}
+
+/* ========== Footer Styling ========== */
+.footer {
+    color: var(--navy-blue);
+    font-size: 1em;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* ========== Contact Form Styling ========== */
+.contact-form-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-label {
+    color: var(--navy-blue);
+}
+
+.form-control:focus {
+    border-color: var(--gold);
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+}
+
+/* ========== About Us Profile Image Styling ========== */
+.card-img-top {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
