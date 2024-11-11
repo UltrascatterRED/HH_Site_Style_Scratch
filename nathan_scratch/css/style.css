@@ -27,3 +27,19 @@ h1{
 .page-title{
     text-align: center;
 }
+.form-box{
+    padding: 10px;
+    align-content: left;
+}
+.tags{
+    padding: 0px 0px 0px 20px;
+    border: 2px darkgoldenrod solid;
+    border-radius: 10px;
+    max-width: 200px;
+}
+label.top{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: large;
+    color: darkblue;
+}
