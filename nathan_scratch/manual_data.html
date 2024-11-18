@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="css/style.css">
+        <title>Submit Damage Report</title>
+    </head>
+    <body>
+        <form id="damageReport"  method="GET" enctype="multipart/form-data">
+            <div class="form-box">
+                <label for="title" class="top">Title</label>
+                <br/>
+                <input type="text" name="title" placeholder="Title or Subject of Report" required/>
+            </div>
+            <div class="form-box">
+                <label for="description" class="top">Description</label>
+                <br/>
+                <textarea type="" name="description" rows="5" cols="40" maxlength="200" placeholder="Description of damage, related events, concerns, etc. 200 characters maximum." required></textarea>
+            </div>
+            <div class="form-box">
+                <label class="top">Tags:</label>
+                <br/>
+                <div class="tags">
+                    <label for="residential">Residential</label>
+                    <input type="checkbox" name="residential" />
+                    <br/>
+                    <label for="infrastructure">Infrastructure</label>
+                    <input type="checkbox" name="infrastructure" />
+                    <br/>
+                    <label for="missing-persons">Missing Person(s)</label>
+                    <input type="checkbox" name="missing-persons" />
+                </div>
+            </div>
+            <div class="form-box">
+                <label for="images" class="top">Add Image(s)</label>
+                <br/>
+                <input type="file" name="images"/>
+            </div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        <script src="js/damage_data_serializer.js"></script>
+    </body>
+</html>
